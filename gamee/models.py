@@ -3,7 +3,7 @@ from django.db import models
 from django.urls import reverse
 
 
-class Thing(models.Model):
+class Game(models.Model):
     name = models.CharField(max_length=256)
     rating = models.IntegerField(default=0, blank=True)
     reviewer = models.ForeignKey(
