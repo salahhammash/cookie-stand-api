@@ -4,7 +4,8 @@
   <h1>Delete Cookie</h1>
   <form method="POST">
   {% csrf_token %}
-    <p>Do you really want to delete "{{ Cookie.name }}"?</p>
+    <p>Do you really want to delete "{{ cookie.name }}"?</p>
     <input type="submit" value="OK">
   </form>
 {% endblock content %}
+a
