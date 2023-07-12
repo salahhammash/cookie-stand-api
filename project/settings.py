@@ -61,7 +61,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # local
     "accounts",
-    "gamee",
+    "cookie_stands",
 ]
 
 MIDDLEWARE = [
